@@ -75,3 +75,11 @@ button:hover {
   color: var(--text);
   margin-bottom: 1rem;
 }
+
+/* Responsive layout */
+@media (min-width: 335px) {
+  .calculator {
+    max-width: 200px;
+    margin-inline: auto;
+  }
+}
